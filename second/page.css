@@ -1,0 +1,23 @@
+.firstpart>.top{
+    padding : 2rem;
+    display: flex;
+    
+}
+.firstpart>.top>.links{
+    display: flex;
+    column-gap: 7px;
+    margin-left:auto;
+}
+
+.firstpart>.bottom{
+    display: flex;
+    padding: 2rem;
+}
+.firstpart{
+    color: aliceblue;
+    background-color: rgb(33, 33, 35);
+}
+.firstpart>.bottom>.imagepart{
+    width: 800px;
+    height: 200px;;
+}
