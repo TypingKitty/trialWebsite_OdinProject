@@ -1,7 +1,6 @@
 .firstpart>.top{
     padding : 2rem;
-    display: flex;
-    
+    display: flex; 
 }
 .firstpart>.top>.links{
     display: flex;
@@ -17,7 +16,74 @@
     color: aliceblue;
     background-color: rgb(33, 33, 35);
 }
-.firstpart>.bottom>.imagepart{
-    width: 800px;
-    height: 200px;;
+h2{
+    display: inline;
+}
+p{
+    text-align: justify;
+}
+.mylogo>img{
+    border-radius: 50%;
+   
+}
+.firstpart>.bottom>.textpart>p{
+    font-size: 18px;
+}
+h1{
+    font-size: 48px;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+body{
+   margin: 0 0 0 0;
+   width:100%;
+}
+.image{
+    margin:20px 20px 20px 20px;
+    border-radius: .5rem;
+    width: 40vw;
+    min-width: 280px;
+    max-width: 500px;
+}
+.signup{
+   
+   height: 2rem;
+    font-size: larger;
+}
+.firstpart>.bottom>.textpart>p{
+    margin-bottom: 4rem;
+}
+.secondpart>h2{
+    padding: 1rem;
+    font-size: 32px;
+    color:#1F2937;
+    display: block;
+    text-align: center;
+}
+.info{
+    padding:2rem;
+    display: flex;
+    justify-content: space-around;
+}
+.info>div>p{
+    width: 200px;
+    text-align: center;
+    color:#6a6b6d;
+}
+.info>div>img{
+   border-radius:1rem
+}
+.thirdpart{
+    background-color:#E5E7EB ;
+    padding:3rem 10rem 3rem 10rem;
+    font-size: 30px;
+    color: #1F2937;
+    font-style: italic;
+}
+.thirdpart>.by>p{
+    font-style: normal;
+    font-size: large;
+    text-align: end;
 }
