@@ -77,13 +77,47 @@ body{
 }
 .thirdpart{
     background-color:#E5E7EB ;
-    padding:3rem 10rem 3rem 10rem;
+    padding:2rem 15% 2rem 15% ;
     font-size: 30px;
     color: #1F2937;
     font-style: italic;
+    
+}
+.thirdpart>.quote>p{
+    text-align:left;
 }
 .thirdpart>.by>p{
     font-style: normal;
+    font-weight: bolder;
     font-size: large;
     text-align: end;
+}
+.forthpart{
+    display:flex;
+    margin: 2rem 10% 2rem 10%;
+    background-color: #3882F6;
+    color:#E5E7EB;
+    padding: 1rem 10% 1rem 10%;
+    border-radius: .5rem;
+    justify-content: space-between;
+}
+.forthpart>.signup{
+    align-self: center;
+}
+.signup>button{
+    font-size: 15px;
+}
+h4{
+    font-size: 20px;
+}
+.forthpart>.text>p{
+    color:#d0d3d8;
+}
+.copyright{
+    background-color: #1F2937;
+    color:#E5E7EB;
+    padding: 3%;
+}
+.copyright>p{
+    text-align: center;
 }
